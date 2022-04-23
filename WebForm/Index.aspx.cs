@@ -11,7 +11,10 @@ namespace WebForm
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //if (!IsPostBack)
+            //{
+            //    Response.Write("第一次加载");
+            //}
         }
         protected void BtnConsole_Click(object sender, EventArgs e)
         {
