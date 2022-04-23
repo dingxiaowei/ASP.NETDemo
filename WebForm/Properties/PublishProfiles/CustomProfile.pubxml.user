@@ -151,16 +151,19 @@
       <publishTime>04/23/2022 17:39:46</publishTime>
     </File>
     <File Include="bin/WebForm.dll">
-      <publishTime>04/23/2022 19:56:29</publishTime>
+      <publishTime>04/23/2022 20:59:08</publishTime>
     </File>
     <File Include="bin/WebForm.pdb">
-      <publishTime>04/23/2022 19:56:29</publishTime>
+      <publishTime>04/23/2022 20:59:08</publishTime>
     </File>
     <File Include="Demo1/CountNum.aspx">
       <publishTime>04/23/2022 11:59:33</publishTime>
     </File>
     <File Include="Index.aspx">
       <publishTime>04/23/2022 19:50:32</publishTime>
+    </File>
+    <File Include="Stock.aspx">
+      <publishTime>04/23/2022 20:58:56</publishTime>
     </File>
     <File Include="Web.config">
       <publishTime>04/23/2022 19:56:30</publishTime>
