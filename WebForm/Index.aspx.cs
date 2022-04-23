@@ -43,5 +43,19 @@ namespace WebForm
             string name = TTBName.Text;
             Session["Name"] = name;
         }
+
+        protected void BtnSave1_Click(object sender, EventArgs e)
+        {
+            string name = ttbName1.Text;
+            //1.创建cookies，并设置有效期
+            Response.Cookies["Name"].Expires = DateTime.Now.AddMinutes(1.0);//设置cookies的有效期1分钟
+            Response.Cookies["Name"].Value = name;
+
+            //2.方法2
+            HttpCookie cookie = new HttpCookie("Age", "20");
+            cookie.Expires = DateTime.Now.AddMinutes(2.0);
+            //把cookies响应到浏览器
+            Response.Cookies.Add(cookie);
+        }
     }
 }

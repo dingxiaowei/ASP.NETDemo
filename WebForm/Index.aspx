@@ -27,6 +27,10 @@
             <asp:Label ID="lblName" runat="server" Text="请输入姓名"></asp:Label>
             <asp:TextBox ID="TTBName" runat="server"></asp:TextBox>
             <asp:Button ID="BtnSave" runat="server" Text="将姓名保存到Session中" OnClick="BtnSave_Click" />
+            <br />
+            <asp:Label ID="lblName1" runat="server" Text="请输入名字"></asp:Label>
+            <asp:TextBox ID="ttbName1" runat="server"></asp:TextBox>
+            <asp:Button ID="BtnSave1" runat="server" Text="将姓名保存到cookies中" OnClick="BtnSave1_Click"/>
         </div>
         <% 
             string str = "欢迎来到ASP.NET网站开发";

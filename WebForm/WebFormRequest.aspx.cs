@@ -22,7 +22,14 @@ namespace WebForm
             Response.Write($"名字:{name} 年龄:{age}");
 
             //取出Session
-            Label1.Text = Session["Name"].ToString();
+            if (Session["Name"] != null)
+                Label1.Text = Session["Name"].ToString();
+            //取出cookies值
+            if (Request.Cookies["Name"] != null)
+            {
+                string name1 = Request.Cookies["Name"].Value;
+                Label2.Text = name1.ToString();
+            }
         }
     }
 }

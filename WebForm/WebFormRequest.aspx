@@ -13,6 +13,8 @@
             <h1>这是第二个页面</h1>
             <a>Session的值:</a>
             <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            <a>Cookies的值:</a>
+            <asp:Label ID="Label2" runat="server" Text="Labe2"></asp:Label>
         </div>
     </form>
 </body>
