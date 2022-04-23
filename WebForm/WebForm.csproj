@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Index.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WebFormRequest.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Index.aspx.cs">
@@ -79,6 +80,13 @@
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebFormRequest.aspx.cs">
+      <DependentUpon>WebFormRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormRequest.aspx.designer.cs">
+      <DependentUpon>WebFormRequest.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

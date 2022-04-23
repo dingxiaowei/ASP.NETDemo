@@ -18,6 +18,16 @@
             <asp:TextBox ID="TxtBox3" runat="server"></asp:TextBox>
             <asp:Button ID="BtnConsole" runat="server" Text="计算" OnClick="BtnConsole_Click"/>
         </div>
+        <div>
+            <a href="WebFormRequest.aspx?name=zhangsan&age=20">跳转到第二个页面</a>
+            <br />
+            <asp:TextBox ID="TTBNum" runat="server"></asp:TextBox>
+            <asp:Button ID="BtnAdd" runat="server" Text="自增" OnClick="BtnAdd_Click" />
+            <br />
+            <asp:Label ID="lblName" runat="server" Text="请输入姓名"></asp:Label>
+            <asp:TextBox ID="TTBName" runat="server"></asp:TextBox>
+            <asp:Button ID="BtnSave" runat="server" Text="将姓名保存到Session中" OnClick="BtnSave_Click" />
+        </div>
         <% 
             string str = "欢迎来到ASP.NET网站开发";
         %>
