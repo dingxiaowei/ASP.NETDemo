@@ -44,6 +44,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -68,6 +71,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Index.aspx" />
+    <Content Include="Modules\echarts.js" />
+    <Content Include="Modules\echarts.min.js" />
+    <Content Include="Modules\jquery-3.3.1.min.js" />
     <Content Include="Stock.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebFormRequest.aspx" />
@@ -88,6 +94,9 @@
     <Compile Include="Stock.aspx.designer.cs">
       <DependentUpon>Stock.aspx</DependentUpon>
     </Compile>
+    <Compile Include="StockHandler.ashx.cs">
+      <DependentUpon>StockHandler.ashx</DependentUpon>
+    </Compile>
     <Compile Include="WebFormRequest.aspx.cs">
       <DependentUpon>WebFormRequest.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -97,8 +106,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Excels\五矿稀土-sz000831.xlsx" />
+    <Content Include="Excels\复星医药-sh600196.xlsx" />
+    <Content Include="Excels\姚记科技-sz002605.xlsx" />
+    <Content Include="Excels\燕京啤酒-sz000729.xlsx" />
+    <Content Include="Excels\耀皮玻璃-sh600819.xlsx" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <Content Include="StockHandler.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -106,9 +121,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Excels\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
