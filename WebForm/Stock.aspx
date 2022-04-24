@@ -17,26 +17,26 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div id="Search">
+        <div style="position:relative">
+            <%--<div style="position:absolute;left:50%">--%>
             <center>
                 <a>下方输入股票信息</a>
                 <br />
                 <asp:TextBox ID="ttbStock" runat="server"></asp:TextBox>
                 <asp:Button ID="BtnSearch" runat="server" Text="搜索" OnClick="BtnSearch_Click" />
             </center>
+            <%--</div>--%>
         </div>
         <br />
         <br />
         <br />
-        <div id="m2" style="width: 600px; height: 400px;"></div>
-        <div>
-            <center>
-                <label style="text-anchor: end">Powerd By 阿拉丁(微信:AladdinDXW)</label>
-            </center>
+        <%--<div id="m2" style="width: 600px; height: 400px;"></div>--%>
+        <div style="position:relative">
+              <label style="position:absolute;right:0">Powerd By 阿拉丁(微信:AladdinDXW)</label>
         </div>
     </form>
 
-    <script src="Modules/echarts.js"></script>
+    <%--<script src="Modules/echarts.js"></script>
     <script type="text/javascript">
         $(function () {
             $.ajax({
@@ -69,6 +69,6 @@
                 }
             });  //end ajax
         });  //end page ready
-    </script>
+    </script>--%>
 </body>
 </html>
