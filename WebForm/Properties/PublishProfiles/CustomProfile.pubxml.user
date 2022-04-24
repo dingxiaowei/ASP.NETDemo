@@ -12,6 +12,9 @@
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>04/23/2022 17:39:45</publishTime>
     </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/17/2021 20:03:36</publishTime>
+    </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>04/23/2022 17:39:46</publishTime>
     </File>
@@ -151,19 +154,46 @@
       <publishTime>04/23/2022 17:39:46</publishTime>
     </File>
     <File Include="bin/WebForm.dll">
-      <publishTime>04/23/2022 20:59:08</publishTime>
+      <publishTime>04/24/2022 23:26:57</publishTime>
     </File>
     <File Include="bin/WebForm.pdb">
-      <publishTime>04/23/2022 20:59:08</publishTime>
+      <publishTime>04/24/2022 23:26:57</publishTime>
     </File>
     <File Include="Demo1/CountNum.aspx">
       <publishTime>04/23/2022 11:59:33</publishTime>
     </File>
+    <File Include="Excels/五矿稀土-sz000831.xlsx">
+      <publishTime>04/23/2022 20:54:10</publishTime>
+    </File>
+    <File Include="Excels/复星医药-sh600196.xlsx">
+      <publishTime>04/23/2022 20:24:30</publishTime>
+    </File>
+    <File Include="Excels/姚记科技-sz002605.xlsx">
+      <publishTime>04/23/2022 20:54:10</publishTime>
+    </File>
+    <File Include="Excels/燕京啤酒-sz000729.xlsx">
+      <publishTime>04/23/2022 20:54:10</publishTime>
+    </File>
+    <File Include="Excels/耀皮玻璃-sh600819.xlsx">
+      <publishTime>04/23/2022 20:54:10</publishTime>
+    </File>
     <File Include="Index.aspx">
       <publishTime>04/23/2022 19:50:32</publishTime>
     </File>
+    <File Include="Modules/echarts.js">
+      <publishTime>01/10/2022 13:37:41</publishTime>
+    </File>
+    <File Include="Modules/echarts.min.js">
+      <publishTime>02/16/2022 23:11:54</publishTime>
+    </File>
+    <File Include="Modules/jquery-3.3.1.min.js">
+      <publishTime>02/16/2022 23:11:54</publishTime>
+    </File>
     <File Include="Stock.aspx">
-      <publishTime>04/23/2022 20:58:56</publishTime>
+      <publishTime>04/24/2022 23:26:42</publishTime>
+    </File>
+    <File Include="StockHandler.ashx">
+      <publishTime>04/23/2022 23:12:47</publishTime>
     </File>
     <File Include="Web.config">
       <publishTime>04/23/2022 19:56:30</publishTime>

@@ -14,11 +14,11 @@
         }
     </style>
     <script src="Modules/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
         <div style="position:relative">
-            <%--<div style="position:absolute;left:50%">--%>
             <center>
                 <a>下方输入股票信息</a>
                 <br />
@@ -30,13 +30,13 @@
         <br />
         <br />
         <br />
-        <%--<div id="m2" style="width: 600px; height: 400px;"></div>--%>
+        <center><div id="m2" style="width: 600px; height: 400px;"></div></center>
         <div style="position:relative">
               <label style="position:absolute;right:0">Powerd By 阿拉丁(微信:AladdinDXW)</label>
         </div>
     </form>
 
-    <%--<script src="Modules/echarts.js"></script>
+    <script src="Modules/echarts.js"></script>
     <script type="text/javascript">
         $(function () {
             $.ajax({
@@ -44,31 +44,39 @@
                 url: "/StockHandler.ashx",
                 data: { 'TestAction': 19 },
                 success: function (data) {
-                    alert(data.le)
+                    var jsonObj = JSON.parse(data);
+                    //alert(jsonObj["xa"]["type"])
                     //构造图表
-                    var myChart2 = echarts.init(document.getElementById('m2'));
+                    var myChart = echarts.init(document.getElementById('m2'));
+                    myChart.showLoading({
+                        text: 'loading',
+                        color: '#c23531',
+                        textColor: '#fff',
+                        maskColor: 'rgba(255, 255, 255, 0.2)',
+                        zlevel: 0,
+                      });
                     //配置参数
-                    option2 = {
+                    option = {
                         tooltip: {
                             trigger: 'axis',
                             axisPointer: {
                                 type: 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
                             }
                         },
-                        legend: data.le,
-                        xAxis: data.xa,
+                        legend: jsonObj["le"],
+                        xAxis: jsonObj["xa"],
                         yAxis: {},
-                        series: data.se
+                        series: jsonObj["se"]
                     };
-
+                    myChart.hideLoading();
                     //使用参数
-                    myChart2.setOption(option2);
+                    myChart.setOption(option);
                 },  //end success
                 error: function (jqXHR) {
-
+                    alert(jqXHR);
                 }
             });  //end ajax
         });  //end page ready
-    </script>--%>
+    </script>
 </body>
 </html>

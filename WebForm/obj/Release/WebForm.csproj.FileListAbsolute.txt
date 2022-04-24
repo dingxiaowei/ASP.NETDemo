@@ -53,3 +53,5 @@ D:\Study\GitHub\ASP.NETDemo\WebForm\obj\Release\WebForm.csproj.CoreCompileInputs
 D:\Study\GitHub\ASP.NETDemo\WebForm\obj\Release\WebForm.csproj.CopyComplete
 D:\Study\GitHub\ASP.NETDemo\WebForm\obj\Release\WebForm.dll
 D:\Study\GitHub\ASP.NETDemo\WebForm\obj\Release\WebForm.pdb
+D:\Study\github\ASP.NETDemo\WebForm\bin\Newtonsoft.Json.dll
+D:\Study\github\ASP.NETDemo\WebForm\bin\Newtonsoft.Json.xml
