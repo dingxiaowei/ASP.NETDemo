@@ -50,11 +50,12 @@
             return result;
         }
 
-
+        //日期2015/12/31
         var dates = rawData.map(function (item) {
             return item[0];
         });
 
+        //开盘价、收盘价、最低价、最高价
         var data = rawData.map(function (item) {
             return [+item[1], +item[2], +item[5], +item[6]];
         });

@@ -111,3 +111,4 @@ D:\Study\GitHub\ASP.NETDemo\WebForm\obj\Debug\WebForm.dll
 D:\Study\GitHub\ASP.NETDemo\WebForm\obj\Debug\WebForm.pdb
 D:\Study\github\ASP.NETDemo\WebForm\bin\Newtonsoft.Json.dll
 D:\Study\github\ASP.NETDemo\WebForm\bin\Newtonsoft.Json.xml
+D:\Study\github\ASP.NETDemo\WebForm\obj\Debug\WebForm.csprojAssemblyReference.cache

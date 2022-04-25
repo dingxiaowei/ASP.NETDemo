@@ -28,7 +28,6 @@ namespace WebForm
             {
                 context.Response.Write("");
             }
-
         }
 
         public bool IsReusable

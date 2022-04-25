@@ -11,12 +11,14 @@ namespace WebForm
         public List<int> data { get; set; }
     }
 
+    //x轴 种类、数据数组
     public class ChartXAxis
     {
         public string type { get; set; }
         public List<string> data { get; set; }
     }
 
+    //图表种类数组
     public class ChartLegend
     {
         public List<string> data { get; set; }
@@ -30,7 +32,7 @@ namespace WebForm
         public void ProcessRequest(HttpContext context)
         {
             context.Response.ContentType = "text/plain";
-            string qianta = context.Request["TestAction"].ToString();
+            //string qianta = context.Request["TestAction"].ToString();
             ChartSeries series1 = new ChartSeries();
             series1.type = "bar";
             series1.name = "2015";
