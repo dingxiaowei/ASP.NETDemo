@@ -70,11 +70,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="echartsdemo1.html" />
+    <Content Include="echartsdemo2.html" />
     <Content Include="Index.aspx" />
     <Content Include="Modules\echarts.js" />
     <Content Include="Modules\echarts.min.js" />
     <Content Include="Modules\jquery-3.3.1.min.js" />
     <Content Include="Stock.aspx" />
+    <Content Include="StockDemo.html" />
     <Content Include="Web.config" />
     <Content Include="WebFormRequest.aspx" />
   </ItemGroup>
@@ -97,6 +100,9 @@
     <Compile Include="StockHandler.ashx.cs">
       <DependentUpon>StockHandler.ashx</DependentUpon>
     </Compile>
+    <Compile Include="StockNetHandler.ashx.cs">
+      <DependentUpon>StockNetHandler.ashx</DependentUpon>
+    </Compile>
     <Compile Include="WebFormRequest.aspx.cs">
       <DependentUpon>WebFormRequest.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -114,6 +120,7 @@
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <Content Include="StockHandler.ashx" />
+    <Content Include="StockNetHandler.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

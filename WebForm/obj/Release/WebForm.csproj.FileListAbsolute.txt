@@ -55,3 +55,4 @@ D:\Study\GitHub\ASP.NETDemo\WebForm\obj\Release\WebForm.dll
 D:\Study\GitHub\ASP.NETDemo\WebForm\obj\Release\WebForm.pdb
 D:\Study\github\ASP.NETDemo\WebForm\bin\Newtonsoft.Json.dll
 D:\Study\github\ASP.NETDemo\WebForm\bin\Newtonsoft.Json.xml
+D:\Study\github\ASP.NETDemo\WebForm\obj\Release\WebForm.csprojAssemblyReference.cache

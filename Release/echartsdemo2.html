@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>EchartsDemo</title>
+    <script src="Modules/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+</head>
+<body>
+    <center><div id="m2" style="width: 600px; height: 400px;"></div></center>
+    <script type="text/javascript">
+        $(function () {
+            $.ajax({
+                type: "POST",
+                url: "/StockNetHandler.ashx",
+                data: JSON,
+                success: function (data) {
+                    var jsonObj = JSON.parse(data);
+                    alert(jsonObj);
+                    //var myChart = echarts.init(document.getElementById('m2'));
+                    //myChart.showLoading({
+                    //    text: 'loading',
+                    //    color: '#c23531',
+                    //    textColor: '#fff',
+                    //    maskColor: 'rgba(255, 255, 255, 0.2)',
+                    //    zlevel: 0,
+                    //});
+                    ////配置参数
+                    //option = {
+                    //    tooltip: {
+                    //        trigger: 'axis',
+                    //        axisPointer: {
+                    //            type: 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+                    //        }
+                    //    },
+                    //    legend: jsonObj["le"],
+                    //    xAxis: jsonObj["xa"],
+                    //    yAxis: {},
+                    //    series: jsonObj["se"]
+                    //};
+                    //myChart.hideLoading();
+                    //myChart.setOption(option);
+                },
+                error: function (jqXHR) {
+                    alert(jqXHR);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

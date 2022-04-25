@@ -36,7 +36,6 @@
         </div>
     </form>
 
-    <script src="Modules/echarts.js"></script>
     <script type="text/javascript">
         $(function () {
             $.ajax({
