@@ -105,7 +105,6 @@ D:\Study\GitHub\ASP.NETDemo\WebForm\bin\roslyn\VBCSCompiler.exe
 D:\Study\GitHub\ASP.NETDemo\WebForm\bin\roslyn\VBCSCompiler.exe.config
 D:\Study\GitHub\ASP.NETDemo\WebForm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Study\GitHub\ASP.NETDemo\WebForm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Study\GitHub\ASP.NETDemo\WebForm\obj\Debug\WebForm.csprojAssemblyReference.cache
 D:\Study\GitHub\ASP.NETDemo\WebForm\obj\Debug\WebForm.csproj.CoreCompileInputs.cache
 D:\Study\GitHub\ASP.NETDemo\WebForm\obj\Debug\WebForm.csproj.CopyComplete
 D:\Study\GitHub\ASP.NETDemo\WebForm\obj\Debug\WebForm.dll
