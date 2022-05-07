@@ -112,3 +112,8 @@ D:\Study\GitHub\ASP.NETDemo\WebForm\obj\Debug\WebForm.pdb
 D:\Study\github\ASP.NETDemo\WebForm\bin\Newtonsoft.Json.dll
 D:\Study\github\ASP.NETDemo\WebForm\bin\Newtonsoft.Json.xml
 D:\Study\github\ASP.NETDemo\WebForm\obj\Debug\WebForm.csprojAssemblyReference.cache
+D:\Study\github\ASP.NETDemo\WebForm\bin\ICSharpCode.SharpZipLib.dll
+D:\Study\github\ASP.NETDemo\WebForm\bin\NPOI.dll
+D:\Study\github\ASP.NETDemo\WebForm\bin\NPOI.OOXML.dll
+D:\Study\github\ASP.NETDemo\WebForm\bin\NPOI.OpenXml4Net.dll
+D:\Study\github\ASP.NETDemo\WebForm\bin\NPOI.OpenXmlFormats.dll

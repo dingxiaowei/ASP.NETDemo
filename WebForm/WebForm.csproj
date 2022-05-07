@@ -108,6 +108,7 @@
     <Content Include="Stock.aspx" />
     <Content Include="StockDemo.html" />
     <Content Include="StockDemo2.html" />
+    <Content Include="StockKLine.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebFormRequest.aspx" />
   </ItemGroup>
@@ -119,6 +120,7 @@
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ModelDefine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stock.aspx.cs">
       <DependentUpon>Stock.aspx</DependentUpon>
@@ -132,6 +134,13 @@
     </Compile>
     <Compile Include="StockHandler.ashx.cs">
       <DependentUpon>StockHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="StockKLine.aspx.cs">
+      <DependentUpon>StockKLine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StockKLine.aspx.designer.cs">
+      <DependentUpon>StockKLine.aspx</DependentUpon>
     </Compile>
     <Compile Include="StockNetHandler.ashx.cs">
       <DependentUpon>StockNetHandler.ashx</DependentUpon>
