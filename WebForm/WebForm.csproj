@@ -87,6 +87,7 @@
   <ItemGroup>
     <Content Include="echartsdemo1.html" />
     <Content Include="echartsdemo2.html" />
+    <Content Include="echartsdemo3.html" />
     <Content Include="Index.aspx" />
     <Content Include="Modules\dist\echarts-en.common.js" />
     <Content Include="Modules\dist\echarts-en.common.min.js" />
@@ -105,6 +106,9 @@
     <Content Include="Modules\dist\extension\dataTool.js" />
     <Content Include="Modules\dist\extension\dataTool.min.js" />
     <Content Include="Modules\jquery-3.3.1.min.js" />
+    <Content Include="Modules\kline\jquery-3.3.1.min.js" />
+    <Content Include="Modules\kline\k-line.js" />
+    <Content Include="Modules\kline\tmpData.js" />
     <Content Include="Stock.aspx" />
     <Content Include="StockDemo.html" />
     <Content Include="StockDemo2.html" />
